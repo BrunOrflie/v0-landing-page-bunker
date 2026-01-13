@@ -8,11 +8,11 @@ export default function SecurityBenchmark() {
     <main className="min-h-screen bg-background">
       {/* Navigation Header */}
       <header className="border-b border-white/10 bg-background/95 backdrop-blur sticky top-0 z-50">
-        <div className="container mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-white">
-            BUNKER
-          </Link>
-          <nav className="flex items-center gap-6">
+        <div className="container mx-auto max-w-6xl px-4 py-4">
+          <nav className="flex items-center justify-center gap-8">
+            <Link href="/" className="text-text hover:text-white transition-colors font-medium">
+              Inteligência de Ameaças
+            </Link>
             <Link href="/threat-intelligence" className="text-text hover:text-white transition-colors font-medium">
               Threat Intelligence
             </Link>
@@ -22,9 +22,6 @@ export default function SecurityBenchmark() {
             <Link href="/security-benchmark" className="text-white font-medium border-b-2 border-primary">
               Security Benchmark
             </Link>
-            <Button asChild size="sm" className="bg-primary text-white hover:bg-primary/90 font-bold">
-              <a href="#cta-final">CONTATO</a>
-            </Button>
           </nav>
         </div>
       </header>
