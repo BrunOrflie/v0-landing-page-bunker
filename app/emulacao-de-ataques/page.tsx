@@ -13,6 +13,9 @@ const nav = [
   { label: "Simulação de Crise", href: "/simulacao-de-crise" },
   { label: "Resposta de Incidentes", href: "/resposta-de-incidentes" },
   { label: "MDR", href: "/mdr" },
+  { label: "vCISO", href: "/vciso" },
+  { label: "MSP", href: "/msp" },
+  { label: "Avaliação de Soluções", href: "/avaliacao-de-solucoes" },
 ]
 
 const gains = [
