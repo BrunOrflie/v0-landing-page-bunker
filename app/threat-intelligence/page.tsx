@@ -17,6 +17,9 @@ export default function ThreatIntelligencePage() {
             <Link href="/simulacao-de-crise" className="text-text hover:text-white transition-colors font-medium text-sm">Simulação de Crise</Link>
             <Link href="/resposta-de-incidentes" className="text-text hover:text-white transition-colors font-medium text-sm">Resposta de Incidentes</Link>
             <Link href="/mdr" className="text-text hover:text-white transition-colors font-medium text-sm">MDR</Link>
+            <Link href="/vciso" className="text-text hover:text-white transition-colors font-medium text-sm">vCISO</Link>
+            <Link href="/msp" className="text-text hover:text-white transition-colors font-medium text-sm">MSP</Link>
+            <Link href="/avaliacao-de-solucoes" className="text-text hover:text-white transition-colors font-medium text-sm">Avaliação de Soluções</Link>
           </nav>
         </div>
       </header>
