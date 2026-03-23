@@ -7,19 +7,19 @@ export default function ThreatIntelligencePage() {
     <main className="min-h-screen bg-background">
       <header className="border-b border-white/10 bg-background/95 backdrop-blur sticky top-0 z-50">
         <div className="container mx-auto max-w-6xl px-4 py-4">
-          <nav className="flex items-center justify-center gap-8">
-            <Link href="/" className="text-text hover:text-white transition-colors font-medium">
-              Inteligência de Ameaças
-            </Link>
-            <Link href="/threat-intelligence" className="text-white font-medium border-b-2 border-primary">
-              Threat Intelligence
-            </Link>
-            <Link href="/risk-assessment" className="text-text hover:text-white transition-colors font-medium">
-              Risk Assessment
-            </Link>
-            <Link href="/security-benchmark" className="text-text hover:text-white transition-colors font-medium">
-              Security Benchmark
-            </Link>
+          <nav className="flex items-center justify-center gap-6 flex-wrap">
+            <Link href="/" className="text-text hover:text-white transition-colors font-medium text-sm">Inteligência de Ameaças</Link>
+            <Link href="/threat-intelligence" className="text-white font-medium border-b-2 border-primary pb-0.5 text-sm">Threat Intelligence</Link>
+            <Link href="/risk-assessment" className="text-text hover:text-white transition-colors font-medium text-sm">Risk Assessment</Link>
+            <Link href="/security-benchmark" className="text-text hover:text-white transition-colors font-medium text-sm">Security Benchmark</Link>
+            <Link href="/emulacao-de-ataques" className="text-text hover:text-white transition-colors font-medium text-sm">Emulação de Ataques</Link>
+            <Link href="/servicos-gerenciados" className="text-text hover:text-white transition-colors font-medium text-sm">Serviços Gerenciados</Link>
+            <Link href="/simulacao-de-crise" className="text-text hover:text-white transition-colors font-medium text-sm">Simulação de Crise</Link>
+            <Link href="/resposta-de-incidentes" className="text-text hover:text-white transition-colors font-medium text-sm">Resposta de Incidentes</Link>
+            <Link href="/mdr" className="text-text hover:text-white transition-colors font-medium text-sm">MDR</Link>
+            <Link href="/vciso" className="text-text hover:text-white transition-colors font-medium text-sm">vCISO</Link>
+            <Link href="/msp" className="text-text hover:text-white transition-colors font-medium text-sm">MSP</Link>
+            <Link href="/avaliacao-de-solucoes" className="text-text hover:text-white transition-colors font-medium text-sm">Avaliação de Soluções</Link>
           </nav>
         </div>
       </header>

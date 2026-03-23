@@ -12,24 +12,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "BUNKER - Inteligência de Ameaças",
   description: "Antecipe riscos. Proteja sua empresa. Eleve sua segurança.",
-  generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/favicon.png",
+    apple: "/favicon.png",
   },
+    generator: 'v0.app'
 }
 
 export default function RootLayout({
