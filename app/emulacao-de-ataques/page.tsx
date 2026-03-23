@@ -9,6 +9,10 @@ const nav = [
   { label: "Risk Assessment", href: "/risk-assessment" },
   { label: "Security Benchmark", href: "/security-benchmark" },
   { label: "Emulação de Ataques", href: "/emulacao-de-ataques" },
+  { label: "Serviços Gerenciados", href: "/servicos-gerenciados" },
+  { label: "Simulação de Crise", href: "/simulacao-de-crise" },
+  { label: "Resposta de Incidentes", href: "/resposta-de-incidentes" },
+  { label: "MDR", href: "/mdr" },
 ]
 
 const gains = [

@@ -9,21 +9,33 @@ export default function Home() {
       {/* Navigation Header */}
       <header className="border-b border-white/10 bg-background/95 backdrop-blur sticky top-0 z-50">
         <div className="container mx-auto max-w-6xl px-4 py-4">
-          <nav className="flex items-center justify-center gap-8">
-            <Link href="/" className="text-white font-medium border-b-2 border-primary">
+          <nav className="flex items-center justify-center gap-6 flex-wrap">
+            <Link href="/" className="text-white font-medium border-b-2 border-primary pb-0.5 text-sm">
               Inteligência de Ameaças
             </Link>
-            <Link href="/threat-intelligence" className="text-text hover:text-white transition-colors font-medium">
+            <Link href="/threat-intelligence" className="text-text hover:text-white transition-colors font-medium text-sm">
               Threat Intelligence
             </Link>
-            <Link href="/risk-assessment" className="text-text hover:text-white transition-colors font-medium">
+            <Link href="/risk-assessment" className="text-text hover:text-white transition-colors font-medium text-sm">
               Risk Assessment
             </Link>
-            <Link href="/security-benchmark" className="text-text hover:text-white transition-colors font-medium">
+            <Link href="/security-benchmark" className="text-text hover:text-white transition-colors font-medium text-sm">
               Security Benchmark
             </Link>
-            <Link href="/emulacao-de-ataques" className="text-text hover:text-white transition-colors font-medium">
+            <Link href="/emulacao-de-ataques" className="text-text hover:text-white transition-colors font-medium text-sm">
               Emulação de Ataques
+            </Link>
+            <Link href="/servicos-gerenciados" className="text-text hover:text-white transition-colors font-medium text-sm">
+              Serviços Gerenciados
+            </Link>
+            <Link href="/simulacao-de-crise" className="text-text hover:text-white transition-colors font-medium text-sm">
+              Simulação de Crise
+            </Link>
+            <Link href="/resposta-de-incidentes" className="text-text hover:text-white transition-colors font-medium text-sm">
+              Resposta de Incidentes
+            </Link>
+            <Link href="/mdr" className="text-text hover:text-white transition-colors font-medium text-sm">
+              MDR
             </Link>
           </nav>
         </div>
