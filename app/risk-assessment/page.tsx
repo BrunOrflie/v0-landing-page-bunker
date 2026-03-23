@@ -22,6 +22,9 @@ export default function RiskAssessment() {
             <Link href="/security-benchmark" className="text-text hover:text-white transition-colors font-medium">
               Security Benchmark
             </Link>
+            <Link href="/emulacao-de-ataques" className="text-text hover:text-white transition-colors font-medium">
+              Emulação de Ataques
+            </Link>
           </nav>
         </div>
       </header>

@@ -22,6 +22,9 @@ export default function SecurityBenchmark() {
             <Link href="/security-benchmark" className="text-white font-medium border-b-2 border-primary">
               Security Benchmark
             </Link>
+            <Link href="/emulacao-de-ataques" className="text-text hover:text-white transition-colors font-medium">
+              Emulação de Ataques
+            </Link>
           </nav>
         </div>
       </header>
