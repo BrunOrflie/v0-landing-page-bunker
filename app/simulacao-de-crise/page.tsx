@@ -76,7 +76,7 @@ export default function SimulacaoDeCrise() {
                 href={item.href}
                 className={
                   item.href === "/simulacao-de-crise"
-                    ? "text-white font-medium border-b-2 border-primary pb-0.5 text-sm"
+                    ? "text-white font-medium border-b-2 border-primary pb-0.5"
                     : "text-text hover:text-white transition-colors font-medium text-sm"
                 }
               >
